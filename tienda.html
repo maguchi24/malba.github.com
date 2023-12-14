@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MALBA</title>
+    <!-- LINK BOOSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <!-- LINK A CSS-->
+    <link rel="stylesheet" href="estilos.css">
+    <!-- GOOGLE FONTS INTER -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poltawski+Nowy:wght@700&display=swap" rel="stylesheet">
+        
+</head>
+
+<body>
+
+    <!-- HEADER - NAVBAR -->
+<header>
+    <nav class="navbar navbar-expand-lg bg-danger navbar-dark fixed-top"> 
+    <div class="container">
+
+    <h1 id="logo"><a href="index.html">MALBA</a></h1>
+    <button class="navbar-toggler border border-white border border-4" type="button" data-bs-toggle="collapse"
+    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+
+
+<div class="collapse navbar-collapse" id="navbarNav">
+
+<ul class="navbar-nav col-12 justify-content-end">
+
+
+    <li class="nav-item dropdown border border-4 me-3 mb-2 mb-sm-2">   
+    <a class="btn btn-danger"
+        href="index.html" role="button">HOME</a><button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+    <span class="visually-hidden">Toggle Dropdown</span></button> 
+    <ul class="dropdown-menu bg-danger me-3 mb-2 mb-sm-2 mt-2">
+        <li><a class="dropdown-item bg-danger" href="index.html#estasemana">ESTA SEMANA</a></li>
+        <li><a class="dropdown-item bg-danger" href="index.html#noticias">NOTICIAS</a></li>
+        <li><a class="dropdown-item bg-danger" href="index.html#tienda">PRODUCTOS DESTACADOS</a></li>
+    </ul>
+    </li>
+
+
+    <li class="nav-item dropdown border border-4 me-3 mb-2 mb-sm-2">
+    <a class="btn btn-danger"
+    href="agenda.html" role="button">AGENDA</a><button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split " data-bs-toggle="dropdown" aria-expanded="false">
+        <span class="visually-hidden">Toggle Dropdown</span>
+        </button>
+        <ul class="dropdown-menu bg-danger me-3 mb-2 mb-sm-2 mt-sm-2">
+            <li><a class="dropdown-item bg-danger" href="agenda.html#eventos">EVENTOS</a></li>
+            <li><a class="dropdown-item bg-danger" href="agenda.html#actividades">ACTIVIDADES</a></li>
+            <li><a class="dropdown-item bg-danger" href="agenda.html#talleres">TALLERES</a></li>
+        </ul>
+        </li>
+
+
+        <li class="nav-item dropdown border border-4 me-3 mb-2 mb-sm-2">
+        <a class="btn btn-danger"
+        href="noticias.html" role="button">NOTICIAS</a><button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+            <span class="visually-hidden">Toggle Dropdown</span>
+            </button>
+            <ul class="dropdown-menu bg-danger me-3 mb-2 mb-sm-2 mt-sm-2">
+                <li><a class="dropdown-item bg-danger" href="noticias.html#noticias">NOTICIA DESTACADAS</a></li>
+                <li><a class="dropdown-item bg-danger" href="noticias.html#articulos">ARTICULOS</a></li>
+            </ul>
+            </li>
+
+            <li class="nav-item dropdown border border-4 me-3 mb-2 mb-sm-2">
+            <a class="btn btn-danger"
+            href="tienda.html" role="button">TIENDA</a><button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+                <span class="visually-hidden">Toggle Dropdown</span>
+                </button>
+                <ul class="dropdown-menu bg-danger me-3 mb-2 mb-sm-2 mt-2 mt-sm-2">
+                    <li><a class="dropdown-item bg-danger" href="tienda.html#papeleria">PAPELERÍA</a></li>
+                    <li><a class="dropdown-item bg-danger" href="tienda.html#publicaciones">PUBLICACIONES MALBA</a></li>
+                    <li><a class="dropdown-item bg-danger" href="tienda.html#accesorios">ACCESORIOS</a></li>
+                </ul>
+                </li>
+
+    
+                <li class="nav-item dropdown border border-4 me-3 mb-2 mb-sm-2">
+                <a class="btn btn-danger"
+                href="contacto.html" role="button">CONTACTO</a><button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+                    <span class="visually-hidden">Toggle Dropdown</span>
+                    </button>
+                    <ul class="dropdown-menu bg-danger me-3 mb-2 mb-sm-2 mt-2 mt-sm-2">
+                        <li><a class="dropdown-item bg-danger" href="contacto.html#formulario">FORMULARIO</a></li>
+                        <li><a class="dropdown-item bg-danger" href="contacto.html#trabajo">TRABAJA CON NOSOTROS</a></li>
+                        <li><a class="dropdown-item bg-danger" href="contacto.html#visita">VISITÁ MALBA</a></li>
+                    </ul>
+                    </li>
+    
+    </ul>   <!-- NAVBAR -->
+</div>  <!-- NAV DROPDOWN -->
+</div>   <!-- CONTAINER -->
+</nav>
+</header>
+
+
+<section id="tiendaBanner">
+    <div class="container">
+        <div class="row">
+            <div class="col-6 m-auto">
+                <h2 class="fw-bold">TIENDA</h2>
+            </div>
+            <div class="col-6">
+                <img src="img/general/trama_banner.svg" alt="Trama">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="my-5 p-4">
+    <div class="container">
+        <div class="row">
+            <div class="col-4 p-lg-5">
+                    <a href="#papeleria">
+                        <img src="img/tienda/postermono.jpg" alt="PAPELERÍA"
+                            class="img-fluid rounded-circle border border-4 border-warning">
+                    </a>
+            </div>
+    
+            <div class="col-4 p-lg-5">
+                    <a href="#publicaciones">
+                        <img src="img/tienda/cuadernofrida.jpg" alt="PUBLICACIONES"
+                            class="img-fluid rounded-circle border border-4 border-warning">
+                    </a>
+            </div>
+            
+                <div class="col-4 p-lg-5">
+                        <a href="#accesorios">
+                            <img src="img/tienda/bolso.jpg" alt="ACCESORIOS"
+                                class="img-fluid rounded-circle border border-4 border-warning">
+                        </a>
+                </div>
+
+                <div class="col-4 d-flex justify-content-center">
+                    <h6 class="display-lg-5 fw-bold mt-4 mb-2">PAPELERÍA</h6>
+                </div>
+
+                <div class="col-4 d-flex justify-content-center">
+                    <h6 class="display-lg-5 fw-bold mt-4 mb-2">PUBLICACIONES</h6>
+                </div>
+
+                <div class="col-4 d-flex justify-content-center ps-4">
+                    <h6 class="display-lg-5 fw-bold mt-4 mb-2">ACCESORIOS</h6>
+                </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- PRODUCTOS -->
+<section id="papeleria" class="pt-5">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h3 class="display-7 fw-bold">PRODUCTOS</h3>
+            </div>
+        </div>
+
+        <!-- PAPELERÍA -->
+        <section class="my-5">
+            <div class="row">
+                <div class="col-lg-10 col-md-9 col-9">
+                    <h4 class="display-7 fw-bold text-warning">PAPELERÍA</h4>
+                </div>
+                <div class="col-lg-2 col-3">
+                    <a class="btn btn-warning text-dark rounded-4 px-lg-5 px-md-5" href="https://tienda.malba.org.ar/" target="_blank" role="button">VER MÁS</a>
+                </div>
+            </div>
+            <div class="row my-3">
+                <div class="col-lg-3 col-6 mb-4">
+                    <article class="text-center">
+                        <img src="img/tienda/postermono.jpg" alt="Psexoanálisis"
+                            class="img-fluid border border-4 border-warning rounded-4">
+                        <h5 class="mt-2 mb-1">"Psexoanálisis", Edgardo Giménez<br> Póster</h5>
+                        <p class="fw-bold fs-4 mt-1 mb-1">$4000</p>
+                        <a href="https://tienda.malba.org.ar/producto/no-habra-ninguno-igual__edgardo-gimenez-psexoanalisis-1968/" target="_blank" class="btn reserva btn-warning text-dark rounded-4 px-4">Comprar</a>
+                </div>
+                <div class="col-lg-3 col-6 mb-4">
+                    <article class="text-center">
+                        <img src="img/tienda/librocarnevaliente.jpg" alt="Carne Valiente"
+                            class="img-fluid border border-4 border-warning rounded-4">
+                        <h5 class="mt-2 mb-1">"Carne Valiente", Edgardo Gimenez <br> Libro</h5>
+                        <p class="fw-bold fs-4 mt-1 mb-1">$49000</p>
+                        <a href="https://tienda.malba.org.ar/producto/libro__carne-valiente__edgardo-gimenez__autobiografia/" target="_blank" class="btn reserva btn-warning text-dark rounded-4 px-4">Comprar</a>
+                </div>
+            
+                <div class="col-lg-3 col-6 mb-4">
+                    <article class="text-center">
+                        <img src="img/tienda/cuadernofrida.jpg" alt="Frida Kahlo: Diego y yo"
+                            class="img-fluid border border-4 border-warning rounded-4">
+                        <h5 class="mt-2 mb-1">"Frida Kahlo: Diego y yo" <br> Cuaderno</h5>
+                        <p class="fw-bold fs-4 mt-1 mb-1">$4000</p>
+                        <a href="https://tienda.malba.org.ar/producto/cuaderno-grande-tercer-ojo__frida-kahlo-diego-y-yo-1949/" target="_blank" class="btn reserva btn-warning text-dark rounded-4 px-4">Comprar</a>
+                </div>
+                <div class="col-lg-3 col-6 mb-4">
+                    <article class="text-center">
+                        <img src="img/tienda/antonio_berni_manifestacion.jpg" alt="Manifestación"
+                            class="img-fluid border border-4 border-warning rounded-4">
+                        <h5 class="mt-2 mb-1">"Manifestación", Antonio Berni <br> Cuaderno</h5>
+                        <p class="fw-bold fs-4 mt-1 mb-1">$2000</p>
+                        <a href="https://tienda.malba.org.ar/producto/cuaderno-chico-tercer-ojo__antonio-berni-manifestacion-1934/" target="_blank" class="btn reserva btn-warning text-dark rounded-4 px-4">Comprar</a>
+                </div>
+            </div>
+            <div class="row my-3">
+                <div class="col-lg-3 col-6 mb-4">
+                    <article class="text-center">
+                        <img src="img/tienda/churba_libro.jpg" alt="Churba. 30 años de diseño"
+                            class="img-fluid border border-4 border-warning rounded-4">
+                        <h5 class="mt-2 mb-1">"Churba. 30 años de diseño", Alberto Churba <br> Libro</h5>
+                        <p class="fw-bold fs-4 mt-1 mb-1">$43000</p>
+                        <a href="https://tienda.malba.org.ar/producto/libro__churba-30-anos-de-diseno__alberto-churba/" target="_blank" class="btn reserva btn-warning text-dark rounded-4 px-4">Comprar</a>
+                </div>
+                <div class="col-lg-3 col-6 mb-4">
+                    <article class="text-center">
+                        <img src="img/tienda/abaporu_poster.jpg" alt="Abaporu"
+                            class="img-fluid border border-4 border-warning rounded-4">
+                        <h5 class="mt-2 mb-1">"Abaporu", Tarsila do Amaral <br> Póster</h5>
+                        <p class="fw-bold fs-4 mt-1 mb-1">$4000</p>
+                        <a href="https://tienda.malba.org.ar/producto/lamina__verboamerica/" target="_blank" class="btn reserva btn-warning text-dark rounded-4 px-4">Comprar</a>
+                </div>
+            
+                <div class="col-lg-3 col-6 mb-4">
+                    <article class="text-center">
+                        <img src="img/tienda/del_cielo_poster.jpg" alt="Del cielo a casa"
+                            class="img-fluid border border-4 border-warning rounded-4">
+                        <h5 class="mt-2 mb-1">"Del cielo a casa", Horacio Coppola y Pedro Curutchet <br> Póster</h5>
+                        <p class="fw-bold fs-4 mt-1 mb-1">$4000</p>
+                        <a href="https://tienda.malba.org.ar/producto/del-cielo-a-casa__horacio-coppola-pedro-curutchet/" target="_blank" class="btn reserva btn-warning text-dark rounded-4 px-4">Comprar</a>
+                </div>
+                <div class="col-lg-3 col-6 mb-4">
+                    <article class="text-center">
+                        <img src="img/tienda/libro_rojo.jpg" alt="El libro rojo"
+                            class="img-fluid border border-4 border-warning rounded-4">
+                        <h5 class="mt-2 mb-1">"El Libro Rojo", Carl Gustav Jung <br> Libro</h5>
+                        <p class="fw-bold fs-4 mt-1 mb-1">$22000</p>
+                        <a href="https://tienda.malba.org.ar/producto/libro__el-libro-rojo-edicion-pocket__carl-gustav-jung/" target="_blank" class="btn reserva btn-warning text-dark rounded-4 px-4">Comprar</a>
+                </div>
+            </div>
+        
+            <hr id="publicaciones" class="border border-1 border border-danger mt-5">
+
+        </section>
+
+
+        <!-- PUBLICACIONES MALBA -->
+        <section class="my-5 mt-5 pt-5">
+            <div class="row">
+                <div class="col-lg-10 col-md-9 col-9 mt-4">
+                    <h4 class="display-7 fw-bold text-danger">PUBLICACIONES MALBA</h4>
+                </div>
+                <div class="col-lg-2 col-3 mt-4">
+                    <a class="btn btn-danger rounded-4 px-lg-5 px-md-5 text-light" href="https://tienda.malba.org.ar/categoria-producto/publicaciones-malba/" target="_blank" role="button">VER MÁS</a>
+                </div>
+            </div>
+            <div class="row my-3">
+                <div class="col-lg-3 col-6 mb-4">
+                    <article class="text-center">
+                        <img src="img/tienda/Pinkler_plano.jpg" alt="Introducción a las fuentes de la sabiduría de Occidente y Oriente"
+                            class="img-fluid border border-4 border-danger rounded-4">
+                        <h5 class="mt-2 mb-1">"Introducción a las fuentes de la sabiduría de Occidente y Oriente" 
+                            De Leandro Pinkler
+                        </h5>
+                        <p class="fw-bold fs-4 mt-1 mb-1">$9900</p>
+                        <a href="https://www.malba.org.ar/coleccion-cuadernos__introduccion-a-las-fuentes-de-la-sabiduria-de-occidente-y-oriente/" target="_blank" class="btn reserva btn-danger text-light rounded-4 px-4">Comprar</a>
+                </div>
+                <div class="col-lg-3 col-6 mb-4">
+                    <article class="text-center">
+                        <img src="img/tienda/libro_EG_plano-750x563.jpg" alt="No habrá ninguno igual"
+                            class="img-fluid border border-4 border-danger rounded-4">
+                        <h5 class="mt-2 mb-1">"No habrá ninguno igual" 
+                            De Edgardo Giménez</h5>
+                        <p class="fw-bold fs-4 mt-1 mb-1">$25800</p>
+                        <a href="https://www.malba.org.ar/publicacion__edgardo-gimenez-no-habra-ninguno-igual/" target="_blank" class="btn reserva btn-danger text-light rounded-4 px-4">Comprar</a>
+                </div>
+            
+                <div class="col-lg-3 col-6 mb-4">
+                    <article class="text-center">
+                        <img src="img/tienda/libro_DCAC_plano-750x563.jpg" alt="Del cielo a casa."
+                            class="img-fluid border border-4 border-danger rounded-4">
+                        <h5 class="mt-2 mb-1">Catálogo "Del cielo a casa."
+                            Conexiones e intermitencias en la cultura material argentina
+                        </h5>
+                        <p class="fw-bold fs-4 mt-1 mb-1">$32200</p>
+                        <a href="https://tienda.malba.org.ar/producto/catalogo__del-cielo-a-casa-conexiones-e-intermitencias-en-la-cultura-material-argentina/" target="_blank" class="btn reserva btn-danger text-light rounded-4 px-4">Comprar</a>
+                </div>
+                <div class="col-lg-3 col-6 mb-4">
+                    <article class="text-center">
+                        <img src="img/tienda/guia_plana-750x563.jpg" alt="Tercer ojo"
+                            class="img-fluid border border-4 border-danger rounded-4">
+                        <h5 class="mt-2 mb-1">Tercer ojo.
+                            <br>
+                            Colección Costantini en Malba
+                        </h5>
+                        <p class="fw-bold fs-4 mt-1 mb-1">$22000</p>
+                        <a href="https://www.malba.org.ar/publicacion__tercer-ojo-coleccion-costantini-en-malba/" target="_blank" class="btn reserva btn-danger text-light rounded-4 px-4">Comprar</a>
+                </div>
+            </div>
+            <div class="row my-3">
+                <div class="col-lg-3 col-6 mb-4">
+                    <article class="text-center">
+                        <img src="img/tienda/libro_sinclair-750x563.jpg" alt="Vía pública"
+                            class="img-fluid border border-4 border-danger rounded-4">
+                        <h5 class="mt-2 mb-1">"Vía pública" <br> De Marcela Sinclair</h5>
+                        <p class="fw-bold fs-4 mt-1 mb-1">$11900</p>
+                        <a href="https://www.malba.org.ar/publicacion__marcela-sinclair-via-publica/" target="_blank" class="btn reserva btn-danger text-light rounded-4 px-4">Comprar</a>
+                </div>
+                <div class="col-lg-3 col-6 mb-4">
+                    <article class="text-center">
+                        <img src="img/tienda/santiago-750x563.jpg" alt="Grafías de vida"
+                            class="img-fluid border border-4 border-danger rounded-4">
+                        <h5 class="mt-2 mb-1">"Grafías de vida"<br>De Silviano Santiago</h5>
+                        <p class="fw-bold fs-4 mt-1 mb-1">$7000</p>
+                        <a href="https://www.malba.org.ar/libro__grafias-de-vida__de-silviano-santiago/" target="_blank" class="btn reserva btn-danger text-light rounded-4 px-4">Comprar</a>
+                </div>
+            
+                <div class="col-lg-3 col-6 mb-4">
+                    <article class="text-center">
+                        <img src="img/tienda/ao_frente_sinpostal-750x563.jpg" alt="Episodios textiles"
+                            class="img-fluid border border-4 border-danger rounded-4">
+                        <h5 class="mt-2 mb-1">Aó. Episodios textiles de las artes visuales en el Paraguay</h5>
+                        <p class="fw-bold fs-4 mt-1 mb-1">$10000</p>
+                        <a href="https://www.malba.org.ar/publicacion__ao-episodios-textiles-de-las-artes-visuales-en-el-paraguay/" target="_blank" class="btn reserva btn-danger text-light rounded-4 px-4">Comprar</a>
+                </div>
+                <div class="col-lg-3 col-6 mb-4">
+                    <article class="text-center">
+                        <img src="img/tienda/YDP_plano.jpg" alt="Vida venturosa"
+                            class="img-fluid border border-4 border-danger rounded-4">
+                        <h5 class="mt-2 mb-1">Catálogo <br> Yente - Del Prete "Vida venturosa"
+                            </h5>
+                        <p class="fw-bold fs-4 mt-1 mb-1">$32900</p>
+                        <a href="https://www.malba.org.ar/catalogo-yente-del-prete-vida-venturosa/" target="_blank" class="btn reserva btn-danger text-light rounded-4 px-4">Comprar</a>
+                </div>
+
+                <hr id="accesorios"  class="border border-1 border border-primary mt-5">
+            </div>
+        </section>
+
+
+        <!-- ACCESORIOS -->
+        <section class="my-5  mt-5 pt-5" >
+            <div class="row">
+                <div class="col-lg-10 col-md-9 col-9 mt-4">
+                    <h4 class="display-7 fw-bold text-primary">ACCESORIOS</h4>
+                </div>
+                <div class="col-lg-2 col-3 mt-4">
+                    <a class="btn btn-primary rounded-4 px-lg-5 px-md-5 text-light" href="https://tienda.malba.org.ar/categoria-producto/accesorios/" target="_blank" role="button">VER MÁS</a>
+                </div>
+            </div>
+            <div class="row my-3">
+                <div class="col-lg-3 col-6 mb-4">
+                    <article class="text-center">
+                        <img src="img/tienda/tote_bag_malba.jpg" alt="Tote Bag"
+                            class="img-fluid border border-4 border-primary rounded-4">
+                        <h5 class="mt-2 mb-1">Tote Bag Malba</h5>
+                        <p class="fw-bold fs-4 mt-1 mb-1">$11000</p>
+                        <a href="https://tienda.malba.org.ar/producto/tote-bag__malba/" target="_blank" class="btn reserva btn-primary text-light rounded-4 px-4">Comprar</a>
+                </div>
+                <div class="col-lg-3 col-6 mb-4">
+                    <article class="text-center">
+                        <img src="img/tienda/shoulder_pouch.jpg" alt="Shoulder pouch"
+                            class="img-fluid border border-4 border-primary rounded-4">
+                        <h5 class="mt-2 mb-1">Shoulder Pouch cuero</h5>
+                        <p class="fw-bold fs-4 mt-1 mb-1">$43800</p>
+                        <a href="https://tienda.malba.org.ar/producto/accesorios__shoulder-pouch__le-bas/" target="_blank" class="btn reserva btn-primary text-light rounded-4 px-4">Comprar</a>
+                </div>
+            
+                <div class="col-lg-3 col-6 mb-4">
+                    <article class="text-center">
+                        <img src="img/tienda/taza_malba.jpg" alt="Taza Malba"
+                            class="img-fluid border border-4 border-primary rounded-4">
+                        <h5 class="mt-2 mb-1">Taza negra Malba</h5>
+                        <p class="fw-bold fs-4 mt-1 mb-1">$4000</p>
+                        <a href="https://tienda.malba.org.ar/producto/taza__malba/" target="_blank" class="btn reserva btn-primary text-light rounded-4 px-4">Comprar</a>
+                </div>
+                <div class="col-lg-3 col-6 mb-4">
+                    <article class="text-center">
+                        <img src="img/tienda/bolso.jpg" alt="Bolso negro"
+                            class="img-fluid border border-4 border-primary rounded-4">
+                        <h5 class="mt-2 mb-1">Cartera Shoulder S1 Le Bas</h5>
+                        <p class="fw-bold fs-4 mt-1 mb-1">$92200</p>
+                        <a href="https://tienda.malba.org.ar/producto/accesorios__cartera-shoulder-s1__le-bas/" target="_blank" class="btn reserva btn-primary text-light rounded-4 px-4">Comprar</a>
+                </div>
+            </div>
+            <div class="row my-3">
+                <div class="col-lg-3 col-6 mb-4">
+                    <article class="text-center">
+                        <img src="img/tienda/billetera.jpg" alt="Billetera"
+                            class="img-fluid border border-4 border-primary rounded-4">
+                        <h5 class="mt-2 mb-1">Billetera Malba blanco/rojo</h5>
+                        <p class="fw-bold fs-4 mt-1 mb-1">$11600</p>
+                        <a href="https://tienda.malba.org.ar/producto/accesorios__billetera-malba-m__planar/" target="_blank" class="btn reserva btn-primary text-light rounded-4 px-4">Comprar</a>
+                </div>
+                <div class="col-lg-3 col-6 mb-4">
+                    <article class="text-center">
+                        <img src="img/tienda/colgante_corazon.jpg" alt="Colgante Corazón"
+                            class="img-fluid border border-4 border-primary rounded-4">
+                        <h5 class="mt-2 mb-1">Colgante Corazón Grande</h5>
+                        <p class="fw-bold fs-4 mt-1 mb-1">$99000</p>
+                        <a href="https://tienda.malba.org.ar/producto/joyeria__colgante-corazon-grande__cabinet-oseo/" target="_blank" class="btn reserva btn-primary text-light rounded-4 px-4">Comprar</a>
+                </div>
+            
+                <div class="col-lg-3 col-6 mb-4">
+                    <article class="text-center">
+                        <img src="img/tienda/mochila_humo_estudio.jpg" alt="Mochila celeste"
+                            class="img-fluid border border-4 border-primary rounded-4">
+                        <h5 class="mt-2 mb-1">Mochila Clásica celeste</h5>
+                        <p class="fw-bold fs-4 mt-1 mb-1">$34900</p>
+                        <a href="https://tienda.malba.org.ar/producto/accesorios__mochila-clasica__humo-estudio/" target="_blank" class="btn reserva btn-primary text-light rounded-4 px-4">Comprar</a>
+                </div>
+                <div class="col-lg-3 col-6 mb-4">
+                    <article class="text-center">
+                        <img src="img/tienda/portaanteojos.jpg" alt="Porta Anteojos"
+                            class="img-fluid border border-4 border-primary rounded-4">
+                        <h5 class="mt-2 mb-1">Porta Anteojos rojo</h5>
+                        <p class="fw-bold fs-4 mt-1 mb-1">$4900</p>
+                        <a href="https://tienda.malba.org.ar/producto/accesorios__porta-anteojos__humo-estudio/" target="_blank" class="btn reserva btn-primary text-light rounded-4 px-4">Comprar</a>
+                </div>
+            </div>
+        </section>
+
+    </div>
+</section>
+
+
+<!-- INICIO DEL FOOTER -->
+<footer class=" bg-danger py-5 mt-5">
+    <div class="container">
+    <div class="row d-flex justify-content-evenly">
+
+        <div class="col-lg-3 col-md-5 text-center mb-lg-0 mb-4">
+        <a href="index.html">
+            <img src="img/general/logo_footermalba.svg" alt="Fundación Malba" width="280" class="img-fluid">
+        </a>
+        </div>
+
+        <div class="col-lg-3 col-md-6 ms-sm-3 text-light text-center mb-lg-0 mb-4 px-0 mx-0">
+        <p>MALBA 2023<br>
+            © Todos los derechos reservados</p>
+        </div>
+
+        <div class="col-lg-3 col-md-5 text-center mb-lg-0 mb-4">
+        <ul class="list-inline redes">
+            <li class="list-inline-item me-0">
+            <a href="https://web.facebook.com/museomalba" target="_blank">
+                <img src="img/general/icono.facebook.svg" alt="Icono facebook" width="40">
+            </a>
+            </li>
+
+            <li class="list-inline-item me-0">
+            <a href="https://www.instagram.com/museomalba/" target="_blank">
+                <img src="img/general/icono.instagram.svg" alt="Icono instagram" width="40">
+            </a>
+            </li>
+            <li class="list-inline-item me-0">
+            <a href="https://twitter.com/museomalba" target="_blank">
+                <img src="img/general/icono.twitter.svg" alt="Icono Twitter" width="40">
+            </a>
+            </li>
+
+            <li class="list-inline-item me-0">
+            <a href="https://www.linkedin.com/company/malbalatinoamericano/?originalSubdomain=ar" target="_blank">
+                <img src="img/general/icono.linkedin.svg" alt="Icono Linkedin" width="40">
+            </a>
+            </li>
+
+            <li class="list-inline-item me-0">
+            <a href="https://www.youtube.com/museomalba" target="_blank">
+                <img src="img/general/icono.youtube.svg" alt="Icono Youtube" width="40">
+            </a>
+            </li>
+        </ul>
+        </div>
+
+        <div class="col-lg-1 col-md-6 text-light text-center mb-lg-0 px-0 mb-4">
+        <p> Av. Figueroa Alcorta 3415 <br>
+            Buenos Aires, Argentina</p>
+        </div>
+
+    </div>
+    </div>
+</footer>
+<!-- FINAL DEL FOOTER -->
+
+
+
+
+    <!-- LINK jquery de bootstrap (Nos hizo funcionar la navbar, alabado seas jquery)-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+crossorigin="anonymous"></script>
+
+</body>

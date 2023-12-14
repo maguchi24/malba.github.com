@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MALBA</title>
+  <!-- LINK BOOSTRAP-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <!-- LINK A CSS-->
+  <link rel="stylesheet" href="estilos.css">
+  <!-- GOOGLE FONTS INTER -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poltawski+Nowy:wght@700&display=swap"
+    rel="stylesheet">
+
+</head>
+
+
+
+
+<body>
+
+  <!-- HEADER - NAVBAR -->
+  <header>
+    <nav class="navbar navbar-expand-lg bg-danger navbar-dark fixed-top"> 
+    <div class="container">
+
+    <h1 id="logo"><a href="index.html">MALBA</a></h1>
+    <button class="navbar-toggler border border-white border border-4" type="button" data-bs-toggle="collapse"
+      data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+
+<div class="collapse navbar-collapse" id="navbarNav">
+  
+<ul class="navbar-nav col-12 justify-content-end">
+
+
+    <li class="nav-item dropdown border border-4 me-3 mb-2 mb-sm-2">   
+      <a class="btn btn-danger"
+        href="index.html" role="button">HOME</a><button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+      <span class="visually-hidden">Toggle Dropdown</span></button> 
+    <ul class="dropdown-menu bg-danger me-3 mb-2 mb-sm-2 mt-2">
+      <li><a class="dropdown-item bg-danger" href="index.html#estasemana">ESTA SEMANA</a></li>
+      <li><a class="dropdown-item bg-danger" href="index.html#noticias">NOTICIAS</a></li>
+      <li><a class="dropdown-item bg-danger" href="index.html#tienda">PRODUCTOS DESTACADOS</a></li>
+      </ul>
+    </li>
+
+
+    <li class="nav-item dropdown border border-4 me-3 mb-2 mb-sm-2">
+      <a class="btn btn-danger"
+      href="agenda.html" role="button">AGENDA</a><button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split " data-bs-toggle="dropdown" aria-expanded="false">
+          <span class="visually-hidden">Toggle Dropdown</span>
+        </button>
+        <ul class="dropdown-menu bg-danger me-3 mb-2 mb-sm-2 mt-sm-2">
+            <li><a class="dropdown-item bg-danger" href="agenda.html#eventos">EVENTOS</a></li>
+            <li><a class="dropdown-item bg-danger" href="agenda.html#actividades">ACTIVIDADES</a></li>
+            <li><a class="dropdown-item bg-danger" href="agenda.html#talleres">TALLERES</a></li>
+          </ul>
+        </li>
+
+
+        <li class="nav-item dropdown border border-4 me-3 mb-2 mb-sm-2">
+          <a class="btn btn-danger"
+          href="noticias.html" role="button">NOTICIAS</a><button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+              <span class="visually-hidden">Toggle Dropdown</span>
+            </button>
+            <ul class="dropdown-menu bg-danger me-3 mb-2 mb-sm-2 mt-sm-2">
+                <li><a class="dropdown-item bg-danger" href="noticias.html#noticias">NOTICIA DESTACADAS</a></li>
+                <li><a class="dropdown-item bg-danger" href="noticias.html#articulos">ARTICULOS</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown border border-4 me-3 mb-2 mb-sm-2">
+              <a class="btn btn-danger"
+              href="tienda.html" role="button">TIENDA</a><button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+                  <span class="visually-hidden">Toggle Dropdown</span>
+                </button>
+                <ul class="dropdown-menu bg-danger me-3 mb-2 mb-sm-2 mt-2 mt-sm-2">
+                    <li><a class="dropdown-item bg-danger" href="tienda.html#papeleria">PAPELERÍA</a></li>
+                    <li><a class="dropdown-item bg-danger" href="tienda.html#publicaciones">PUBLICACIONES MALBA</a></li>
+                    <li><a class="dropdown-item bg-danger" href="tienda.html#accesorios">ACCESORIOS</a></li>
+                  </ul>
+                </li>
+
+      
+                <li class="nav-item dropdown border border-4 me-3 mb-2 mb-sm-2">
+                  <a class="btn btn-danger"
+                  href="contacto.html" role="button">CONTACTO</a><button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+                      <span class="visually-hidden">Toggle Dropdown</span>
+                    </button>
+                    <ul class="dropdown-menu bg-danger me-3 mb-2 mb-sm-2 mt-2 mt-sm-2">
+                        <li><a class="dropdown-item bg-danger" href="contacto.html#formulario">FORMULARIO</a></li>
+                        <li><a class="dropdown-item bg-danger" href="contacto.html#trabajo">TRABAJA CON NOSOTROS</a></li>
+                        <li><a class="dropdown-item bg-danger" href="contacto.html#visita">VISITÁ MALBA</a></li>
+                      </ul>
+                    </li>
+    
+    </ul>   <!-- NAVBAR -->
+</div>  <!-- NAV DROPDOWN -->
+</div>   <!-- CONTAINER -->
+</nav>
+</header>
+
+
+
+  <!-- BANNER - NOTICIAS -->
+  <section id="tiendaBanner">
+    <div class="container">
+      <div class="row">
+        <div class="col-6 m-auto">
+          <h2 class="mt-lg-5 mt-md-4 mt-sm-3 mt-2 ms-4  fw-bold">NOTICIAS</h2>
+        </div>
+        <div class="col-6">
+          <img src="img/noticias/trama.noticias.svg" class="img-fluid" alt="Trama noticias">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- FIN DEL BANNER - NOTICIAS -->
+
+
+
+  <!-- NOTICIA 1 -->
+  <section id="noticias">
+    <div class="container py-5">
+      <div class="row">
+
+
+        <div class="col-lg-8 pe-5 my-3">
+          <button type="button" class="btn btn-outline-primary rounded-4 my-3">HOY</button>
+          <h2 class="display-4 fw-bold">LA OBRA MÁS VALORADA DE LA “EXPO ARTÍSTICA” </h2>
+          <p class="display-5">Conoce a la “Humanidad artificial”</p>
+        </div>
+
+        <div class="col-lg-5 col-12 mb-4">
+          <img src="img/noticias/expoartistica2.jpg" alt="Expo Artistica" class="img-fluid">
+        </div>
+
+
+
+        <div class="col-lg-7 pe-5 my-auto">
+
+          <p class="fs-4">Durante el pasado 11/11/2023, se llevó a cabo uno de los eventos más importantes del año: La
+            Expo Artística. Allí asistieron una gran variedad de profesionales, incluyendo a Alicia García, la
+            renombrada escultora que presentó su última obra: “Humanidad artificial” representa el boom de las
+            inteligencias artificiasles y su relacion con las artes visuales.
+            <br>
+            García hace una critica contra los nuevos programas de AI, defendiendo el imperfecto arte humano. "No
+            podemos llamar arte a una pieza creada por sitios donde sus bases de datos se basan en obras ya existentes
+            de otros artistas" dice la artista. Su discurso trajo gran debate dentro del museo.
+          </p>
+
+          <a class="btn btn-primary rounded-4 px-lg-5 px-md-5" href="https://www.malba.org.ar/category/noticias/" target="_blank" role="button">LEER MÁS NOTICIAS</a>
+        </div>
+
+
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- BOTONES DE NOTICIAS -->
+  <section>
+    <div class="container py-5">
+      <div class="row">
+
+        <div class="col-lg-4 ">
+          <a class="btn btn-primary btn-lg d-grid gap-2 rounded-4 px-lg-5 px-md-5 text-start mb-lg-1 mb-2"
+            href="https://www.malba.org.ar/malba-22-aniversario/" target="_blank" role="button">Cumpleaños
+            Festival #Malba22: El Aniversario</a>
+        </div>
+
+
+        <div class="col-lg-4">
+          <a class="btn btn-primary btn-lg d-grid gap-2 rounded-4 px-lg-5 px-md-5 text-start  mb-lg-1 mb-2"
+            href="https://www.malba.org.ar/nuevas-muestras-de-madalena-schwartz-y-foto-estudio-luisita/" target="_blank"
+            role="button">Nuevas muestras de la artista Madalena Schwartz</a>
+        </div>
+
+
+        <div class="col-lg-4">
+          <a class="btn btn-primary btn-lg d-grid gap-2 rounded-4 px-lg-5 px-md-5 text-start  mb-lg-1 mb-2"
+            href="https://www.malba.org.ar/evento/curso-latinoamerica-al-sur-del-sur-antonio-berni-y-la-lucha-social/"
+            target="_blank" role="button">Curso Latinoamérica al sur del Sur Antonio Berni</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- NOTICIA DESTACADA  -->
+  <section id="martaminujin" >
+    <div class="container py-5 ">
+
+
+      <div class="row">
+        <div class="col-lg-7 col-12 my-auto">
+          <p class=" fs-4">ARTICULO DESTACADO</p>
+          <h2 class="display-4 fw-bold"> MARTA MINUJIN HABLA SOBRE EL MALBA </h2>
+          <p class="display-5">La aclamada artista cuenta sus experiencias en el mundo del arte.</p>
+        </div>
+
+        <div class="col-lg-5 col-12 mb-4">
+          <img src="img/noticias/martaminujin.jpg" alt="Marta Minujin" class="img-fluid rounded-circle">
+        </div>
+
+      </div>
+
+
+
+      <div class="row">
+
+        <div class="col-lg-7 pe-5 my-auto">
+
+          <p class="fs-4">En su visita por el museo Malba, Minujin nos adentra en su historia y anectotas como artista
+            Latinoamericana. Cuenta que siempre esta al tanto de la agenda del museo. Se entusiasma cada vez que surgen
+            nuevos artistas ya que es una manera de fomentar el arte de nuestras tierras.
+            <br>
+            Según Marta, el arte está siempre centrado en la experiencia de las otras personas, a quienes no llama
+            público ya que las considera otras personas que participan y viven el arte . Por ese motivo añora tanto las
+            exposiciones del Malba que invitan al expectador a ser parte.
+            <br>
+            Para cerrar, contó sobre lo que viene - además de la exposición en el Jewish Museum de Nueva York y de la
+            escultura que se verá en el Times Square.
+
+          </p>
+
+
+        </div>
+
+
+
+
+      </div>
+
+      <hr id="articulos" class="border border-1 border border-primary mt-5">
+    </div>
+
+  
+  </section>
+
+
+
+  <!-- MÁS NOTICIAS -->
+
+  <section class="mt-5">
+    <div class="container my-2">
+      <div class="row">
+        <div class="col-9 col-md-10">
+          <h2 class="display-5 fw-bold">MÁS ARTÍCULOS DE ESTA SEMANA</h2>
+        </div>
+      </div>
+    </div>
+    <!-- NOTICIA + TEXTO -->
+    <div class="container">
+      <div class="row">
+
+        <div class="col-12 col-sm-12 col-md-7 col-lg-7">
+          <div class="container">
+            <div class="row">
+              <div class="mb-3">
+                <img src="img/noticias/malba_noche.jpg" alt="Malba Noche" class="img-fluid rounded-4">
+              </div>
+              <div class="pt-3">
+                <h3 class="display-5 fw-bold">ASÍ SE VIVIÓ LA NOCHE DE LOS MUSEOS EN MALBA</h3>
+                <p class="fs-5">La institución exhibió a más de 220 obras icónicas del arte latinoamericano en un
+                  recorrido
+                  que por primera vez pone en diálogo la Colección Malba y la de su fundador, Eduardo F. Costantini.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- OTRAS 3 NOTICIAS -->
+        <div class="col-lg-5 col-md-5">
+          <div class="container">
+            <div class="row">
+              <div id="guias" class="col-12 mb-3 mb-lg-4 mb-md-1">
+                <img src="img/noticias/guias.jpg" alt="guias" class="img-fluid rounded-4">
+              </div>
+
+              <div id="pducativo" class="col-12 mb-3 mb-lg-4 mb-md-1">
+                <img src="img/noticias/proyecto.jpg" alt="Proyecto Educativo" class="img-fluid rounded-4">
+              </div>
+
+              <div id="pducativo" class="col-12 mb-3">
+                <img src="img/noticias/donaciones.jpg" alt="donaciones" class="img-fluid rounded-4">
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="col-12 d-flex justify-content-center">
+      <a class="btn btn-danger rounded-4 mt-2 px-5" href="https://www.malba.org.ar/category/noticias/" role="button"
+        target="_blank">VER MÁS</a>
+    </div>
+
+  </section>
+
+  <!-- INICIO DEL FOOTER -->
+  <footer class=" bg-danger py-5 mt-5">
+    <div class="container">
+      <div class="row d-flex justify-content-evenly">
+
+        <div class="col-lg-3 col-md-5 text-center mb-lg-0 mb-4">
+          <a href="index.html">
+            <img src="img/general/logo_footermalba.svg" alt="Fundación Malba" width="280" class="img-fluid">
+          </a>
+        </div>
+
+        <div class="col-lg-3 col-md-6 ms-sm-3 text-light text-center mb-lg-0 mb-4 px-0 mx-0">
+          <p>MALBA 2023<br>
+            © Todos los derechos reservados</p>
+        </div>
+
+        <div class="col-lg-3 col-md-5 text-center mb-lg-0 mb-4">
+          <ul class="list-inline redes">
+            <li class="list-inline-item me-0">
+              <a href="https://web.facebook.com/museomalba" target="_blank">
+                <img src="img/general/icono.facebook.svg" alt="Icono facebook" width="40">
+              </a>
+            </li>
+
+            <li class="list-inline-item me-0">
+              <a href="https://www.instagram.com/museomalba/" target="_blank">
+                <img src="img/general/icono.instagram.svg" alt="Icono instagram" width="40">
+              </a>
+            </li>
+            <li class="list-inline-item me-0">
+              <a href="https://twitter.com/museomalba" target="_blank">
+                <img src="img/general/icono.twitter.svg" alt="Icono Twitter" width="40">
+              </a>
+            </li>
+
+            <li class="list-inline-item me-0">
+              <a href="https://www.linkedin.com/company/malbalatinoamericano/?originalSubdomain=ar" target="_blank">
+                <img src="img/general/icono.linkedin.svg" alt="Icono Linkedin" width="40">
+              </a>
+            </li>
+
+            <li class="list-inline-item me-0">
+              <a href="https://www.youtube.com/museomalba" target="_blank">
+                <img src="img/general/icono.youtube.svg" alt="Icono Youtube" width="40">
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-lg-1 col-md-6 text-light text-center mb-lg-0 px-0 mb-4">
+          <p> Av. Figueroa Alcorta 3415 <br>
+            Buenos Aires, Argentina</p>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+  <!-- FINAL DEL FOOTER -->
+
+
+  <!-- LINK jquery de bootstrap (Nos hizo funcionar la navbar, alabado seas jquery)-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

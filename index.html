@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MALBA</title>
+  <!-- LINK BOOSTRAP-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <!-- LINK A CSS-->
+  <link rel="stylesheet" href="estilos.css">
+  <!-- GOOGLE FONTS INTER -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poltawski+Nowy:wght@700&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- HEADER - NAVBAR -->
+  <header>
+    <nav class="navbar navbar-expand-lg bg-danger navbar-dark fixed-top"> 
+    <div class="container">
+
+    <h1 id="logo"><a href="#">MALBA</a></h1>
+    <button class="navbar-toggler border border-white border border-4" type="button" data-bs-toggle="collapse"
+      data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+
+<div class="collapse navbar-collapse" id="navbarNav">
+  
+<ul class="navbar-nav col-12 justify-content-end">
+
+
+    <li class="nav-item dropdown border border-4 me-3 mb-2 mb-sm-2">   
+      <a class="btn btn-danger"
+        href="index.html" role="button">HOME</a><button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+      <span class="visually-hidden">Toggle Dropdown</span></button> 
+    <ul class="dropdown-menu bg-danger me-3 mb-2 mb-sm-2 mt-2">
+        <li><a class="dropdown-item bg-danger" href="#estasemana">ESTA SEMANA</a></li>
+        <li><a class="dropdown-item bg-danger" href="#noticias">NOTICIAS</a></li>
+        <li><a class="dropdown-item bg-danger" href="#tienda">PRODUCTOS DESTACADOS</a></li>
+      </ul>
+    </li>
+
+
+    <li class="nav-item dropdown border border-4 me-3 mb-2 mb-sm-2">
+      <a class="btn btn-danger"
+      href="agenda.html" role="button">AGENDA</a><button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split " data-bs-toggle="dropdown" aria-expanded="false">
+          <span class="visually-hidden">Toggle Dropdown</span>
+        </button>
+        <ul class="dropdown-menu bg-danger me-3 mb-2 mb-sm-2 mt-sm-2">
+            <li><a class="dropdown-item bg-danger" href="agenda.html#eventos">EVENTOS</a></li>
+            <li><a class="dropdown-item bg-danger" href="agenda.html#actividades">ACTIVIDADES</a></li>
+            <li><a class="dropdown-item bg-danger" href="agenda.html#talleres">TALLERES</a></li>
+          </ul>
+        </li>
+
+
+        <li class="nav-item dropdown border border-4 me-3 mb-2 mb-sm-2">
+          <a class="btn btn-danger"
+          href="noticias.html" role="button">NOTICIAS</a><button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+              <span class="visually-hidden">Toggle Dropdown</span>
+            </button>
+            <ul class="dropdown-menu bg-danger me-3 mb-2 mb-sm-2 mt-sm-2">
+                <li><a class="dropdown-item bg-danger" href="noticias.html#noticias">NOTICIA DESTACADAS</a></li>
+                <li><a class="dropdown-item bg-danger" href="noticias.html#articulos">ARTICULOS</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown border border-4 me-3 mb-2 mb-sm-2">
+              <a class="btn btn-danger"
+              href="tienda.html" role="button">TIENDA</a><button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+                  <span class="visually-hidden">Toggle Dropdown</span>
+                </button>
+                <ul class="dropdown-menu bg-danger me-3 mb-2 mb-sm-2 mt-2 mt-sm-2">
+                    <li><a class="dropdown-item bg-danger" href="tienda.html#papeleria">PAPELERÍA</a></li>
+                    <li><a class="dropdown-item bg-danger" href="tienda.html#publicaciones">PUBLICACIONES MALBA</a></li>
+                    <li><a class="dropdown-item bg-danger" href="tienda.html#accesorios">ACCESORIOS</a></li>
+                  </ul>
+                </li>
+
+      
+                <li class="nav-item dropdown border border-4 me-3 mb-2 mb-sm-2">
+                  <a class="btn btn-danger"
+                  href="contacto.html" role="button">CONTACTO</a><button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+                      <span class="visually-hidden">Toggle Dropdown</span>
+                    </button>
+                    <ul class="dropdown-menu bg-danger me-3 mb-2 mb-sm-2 mt-2 mt-sm-2">
+                        <li><a class="dropdown-item bg-danger" href="contacto.html#formulario">FORMULARIO</a></li>
+                        <li><a class="dropdown-item bg-danger" href="contacto.html#trabajo">TRABAJA CON NOSOTROS</a></li>
+                        <li><a class="dropdown-item bg-danger" href="contacto.html#visita">VISITÁ MALBA</a></li>
+                      </ul>
+                    </li>
+    
+    </ul>   <!-- NAVBAR -->
+</div>  <!-- NAV DROPDOWN -->
+</div>   <!-- CONTAINER -->
+</nav>
+</header>
+
+  <!-- FIN DEL HEADER - NAVBAR -->
+
+
+
+  <!-- CARRUSEL HOME 1-->
+  <div id="carouselExampleIndicators" class="carousel slide d-none d-md-block">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active bg-danger"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="bg-danger"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="bg-danger"
+        aria-label="Slide 3"></button>
+    </div>
+
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/general/banner_uno.png" class="col-lg-6 d-block w-100 " id="img1" alt="1">
+        <div class="boton1">
+          <a class="btn btn-danger rounded-4 mt-2" href="contacto.html" target="_blank" role="button" alt="1">AGENDÁ UNA
+            VISITA</a>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/general/banner_dos.png" class="d-block w-100" id="img2" alt="2">
+        <div class="boton2">
+          <a class="btn btn-primary rounded-4 mt-2" href="agenda.html" target="_blank" role="button" alt="2">RESERVÁ TU LUGAR</a>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/general/banner_tres.png" class="d-block w-100" id="img3" alt="3">
+        <div class="boton3">
+          <a class="btn btn-danger rounded-4 mt-2" href="noticias.html#martaminujin" target="_blank" role="button" alt="3">SOBRE LA NOTICIA</a>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- FIN DE CARRUSEL HOME 1 -->
+
+  <!-- CARRUSEL HOME 2-->
+  <div id="carousel2" class="carousel slide d-md-none pt-5">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carousel2" data-bs-slide-to="0" class="active bg-danger"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carousel2" data-bs-slide-to="1" class="bg-danger"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carousel2" data-bs-slide-to="2" class="bg-danger"
+        aria-label="Slide 3"></button>
+    </div>
+
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <a href="contacto.html"><img src="img/general/banner_uno.png" class="col-lg-6 d-block w-100 pt-4" id="img1" alt="1"></a>
+      </div>
+      <div class="carousel-item">
+        <a href="agenda.html"><img src="img/general/banner_dos.png" class="d-block w-100 pt-4" id="img2" alt="2"></a>
+      </div>
+      <div class="carousel-item">
+      <a href="noticias.html"><img src="img/general/banner_tres.png" class="d-block w-100 pt-4" id="img3" alt="3"></a>
+      </div>
+    </div>
+    <button class="carousel-control-prev pt-5" type="button" data-bs-target="#carousel2"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon pt-5" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next pt-5" type="button" data-bs-target="#carousel2"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon pt-5" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- FIN DE CARRUSEL HOME 2-->
+
+  <!-- AGENDA HOME -->
+  <section id="estasemana" class="mt-4 pt-4">
+    <div class="container my-2">
+      <div class="row">
+        <div class="col-9 col-md-10">
+          <h2 class="display-5 fw-bold">Esta semana</h2>
+        </div>
+        <div class="col-3 col-md-2">
+          <a class="btn btn-danger rounded-4 mt-2" href="agenda.html" target="_blank" role="button">VER MÁS</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div id="fiesta" class="col-12 col-lg-7 col-md-7 mb-3">
+          <img src="img/agenda/fiestadelpop.jpg" alt="fiesta del pop"
+            class="img-fluid border border-4 border-warning rounded-4">
+        </div>
+
+        <div class="col-lg-5 col-md-5 align-self-center">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 mb-3 mb-lg-1 mb-md-1">
+                <img src="img/agenda/tercerojo.jpg" alt="tercer ojo"
+                  class="img-fluid border border-4 border-warning rounded-4">
+              </div>
+              <div class="col-12 mb-3 mb-lg-1 mb-md-1">
+                <img src="img/agenda/altacostura.jpg" alt="alta costura"
+                  class="img-fluid border border-4 border-warning rounded-4">
+              </div>
+              <div class="col-12 mb-3">
+                <img src="img/agenda/delcielo.jpg" alt="del cielo a casa"
+                  class="img-fluid border border-4 border-warning rounded-4">
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr class="border border-1 border border-danger">
+      </div>
+    </div>
+
+  </section>
+
+  <!-- FIN DE AGENDA HOME -->
+
+  <!-- NOTICIAS HOME -->
+  <section id="noticias" class="mt-5">
+    <div class="container my-2">
+      <div class="row">
+        <div class="col-12 d-flex justify-content-center">
+          <h2 class="display-5 fw-bold">Noticias</h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+
+        <div class="col-12 col-lg-6 mb-3">
+          <img src="img/noticias/expo.jpg" alt="tercer ojo" class="img-fluid border border-4 border-primary">
+        </div>
+
+        <div class="col-12 col-lg-6 mb-3">
+          <img src="img/noticias/marta.jpg" alt="alta costura" class="img-fluid border border-4 border-primary">
+        </div>
+
+        <div class="col-12 col-lg-4 mb-3">
+          <img src="img/noticias/proyecto.jpg" alt="del cielo a casa" class="img-fluid border border-4 border-primary">
+        </div>
+
+        <div class="col-12 col-lg-4 mb-3 ">
+          <img src="img/noticias/nochemalba.jpg" alt="del cielo a casa" class="img-fluid border border-4 border-primary">
+        </div>
+
+        <div class="col-12 col-lg-4 mb-3">
+          <img src="img/noticias/donaciones.jpg" alt="del cielo a casa" class="img-fluid border border-4 border-primary">
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="col-12 d-flex justify-content-center">
+      <a class="btn btn-primary rounded-4 mt-5 mb-5" href="noticias.html" target="_blank" role="button">VER MÁS</a>
+    </div>
+
+  </section>
+
+  <!-- FIN DE NOTICIAS HOME -->
+
+  <!-- CONTACTO HOME -->
+  <section id="contacto">
+    <div class="container py-5">
+      <div class="row">
+
+        <div class="col-lg-7 pe-5 my-auto">
+          <h2 class="display-4 fw-bold">¡Trabajá con nosotros!</h2>
+          <p class="fs-5">¿Sos artista y queres presentar tus obras? ¿Te gusta el arte, la cultura y las actividades
+            recreativas? Tenemos muchas ofertas laborales para que te postules.
+            En Malba no solo trabajas sino que aprendes todos los días, sumate a nuestro equipo.</p>
+          <hr class="border border-3 border-danger">
+          <a class="btn btn-danger rounded-4  px-4" href="contacto.html" target="_blank" role="button">CONTACTÁNOS</a>
+        </div>
+
+        <div class="col-lg-5 col-12 mt-md-5 mt-5 mt-lg-0">
+          <img src="img/contacto/trabajaconnosotros.png" alt="Trabaja con nosotros" class="img-fluid">
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- TIENDA HOME -->
+  <section id="tienda" class="pt-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 mb-2 mt-5 py-5">
+          <h2 class="display-4 fw-bold text-center">Productos destacados</h2>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-3 col-md-3 col-6 mb-4">
+          <article class="text-center">
+            <img src="img/tienda/cuadernofrida.jpg" alt="Cuaderno Frida"
+              class="img-fluid rounded-circle border border-4 border-warning">
+            <h3 class="mt-4 mb-2">CUADERNO</h3>
+            <p>Cuaderno Tercer ojo
+              Frida Kahlo (1949)</p>
+            <a href="#" class="btn reserva btn-primary rounded-4 px-4">Comprar</a>
+          </article>
+        </div>
+
+        <div class="col-lg-3 col-md-3 col-6 mb-4">
+          <article class="text-center">
+            <img src="img/tienda/postermono.jpg" alt="Póster Psexoanálisis"
+              class="img-fluid rounded-circle border border-4 border-warning">
+            <h3 class="mt-4 mb-2">POSTER</h3>
+            <p>Edgardo Giménez:
+              Psexoanálisis (1968)</p>
+            <a href="#" class="btn reserva btn-primary rounded-4 px-4">Comprar</a>
+          </article>
+        </div>
+
+        <div class="col-lg-3 col-md-3 col-6 mb-4">
+          <article class="text-center">
+            <img src="img/tienda/librocarnevaliente.jpg" alt="Libro Carne Valiente"
+              class="img-fluid rounded-circle border border-4 border-warning">
+            <h3 class="mt-4 mb-2">LIBRO</h3>
+            <p>Carne Valiente
+              Edgardo Gimenez</p>
+            <a href="#" class="btn reserva btn-primary rounded-4 px-4">Comprar</a>
+          </article>
+        </div>
+
+        <div class="col-lg-3 col-md-3 col-6 mb-4">
+          <article class="text-center">
+            <img src="img/tienda/bolso.jpg" alt="Accesorio Cartera"
+              class="img-fluid rounded-circle border border-4 border-warning">
+            <h3 class="mt-4 mb-2">ACCESORIO</h3>
+            <p>Cartera Shoulder S1
+              Le Bas</p>
+            <a href="#" class="btn reserva btn-primary rounded-4 px-4">Comprar</a>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- INICIO DEL FOOTER -->
+  <footer class=" bg-danger py-5 mt-5">
+    <div class="container">
+      <div class="row d-flex justify-content-evenly">
+
+        <div class="col-lg-3 col-md-5 text-center mb-lg-0 mb-4">
+          <a href="#">
+            <img src="img/general/logo_footermalba.svg" alt="Fundación Malba" width="280" class="img-fluid">
+          </a>
+        </div>
+
+        <div class="col-lg-3 col-md-6 ms-sm-3 text-light text-center mb-lg-0 mb-4 px-0 mx-0">
+          <p>MALBA 2023<br>
+            © Todos los derechos reservados</p>
+        </div>
+
+        <div class="col-lg-3 col-md-5 text-center mb-lg-0 mb-4">
+          <ul class="list-inline redes">
+            <li class="list-inline-item me-0">
+              <a href="https://web.facebook.com/museomalba" target="_blank">
+                <img src="img/general/icono.facebook.svg" alt="Icono facebook" width="40">
+              </a>
+            </li>
+
+            <li class="list-inline-item me-0">
+              <a href="https://www.instagram.com/museomalba/" target="_blank">
+                <img src="img/general/icono.instagram.svg" alt="Icono instagram" width="40">
+              </a>
+            </li>
+            <li class="list-inline-item me-0">
+              <a href="https://twitter.com/museomalba" target="_blank">
+                <img src="img/general/icono.twitter.svg" alt="Icono Twitter" width="40">
+              </a>
+            </li>
+
+            <li class="list-inline-item me-0">
+              <a href="https://www.linkedin.com/company/malbalatinoamericano/?originalSubdomain=ar" target="_blank">
+                <img src="img/general/icono.linkedin.svg" alt="Icono Linkedin" width="40">
+              </a>
+            </li>
+
+            <li class="list-inline-item me-0">
+              <a href="https://www.youtube.com/museomalba" target="_blank">
+                <img src="img/general/icono.youtube.svg" alt="Icono Youtube" width="40">
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-lg-1 col-md-6 text-light text-center mb-lg-0 px-0 mb-4">
+          <p> Av. Figueroa Alcorta 3415 <br>
+            Buenos Aires, Argentina</p>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+
+  <!-- LINK jquery de bootstrap (Nos hizo funcionar la navbar, alabado seas jquery)-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

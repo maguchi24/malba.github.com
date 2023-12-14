@@ -1,0 +1,119 @@
+
+/* LOGO DE MALBA EN NAVBAR*/
+
+
+
+
+#logo {
+   background-image: url(img/general/malba_logo.svg);
+   width: 12.5rem;
+   height: 5rem;
+   font-size: 0rem;
+}
+#logo a {
+   display: block;
+   width: 12.5rem;
+   height: 5rem;
+}
+
+a:hover {
+   text-decoration: none;
+   color: white;
+
+   }
+
+   a:link {
+      color: white;
+   }
+
+   a:visited {
+      color:  white;
+
+   }
+
+
+header {
+
+   font-weight: 37.5rem;
+   
+
+}
+
+
+#carouselExampleIndicators {
+
+   margin-top: 6.25rem;
+}
+
+
+
+
+#contacto {
+
+   background-color: #d8d03881;
+}
+
+
+
+#img1 {
+   position: relative;
+}
+
+.boton1 {
+
+   position: absolute;
+   top: 70%;
+   left: 8%;
+}
+
+#img2 {
+   position: relative;
+}
+
+.boton2 {
+
+   position: absolute;
+   top: 70%;
+   left: 8%;
+}
+
+#img3 {
+   position: relative;
+}
+
+.boton3 {
+
+   position: absolute;
+   top: 70%;
+   left: 8%;
+}
+
+
+
+/* TIENDA HTML */
+#tiendaBanner {
+   margin-top: 6.25rem;
+}
+
+.block{
+   display: block;
+}
+
+/* AGENDA HTML */
+
+#agendabanner {
+   margin-top: 6.25rem;
+}
+
+
+
+/* CONTACTO HTML */
+
+#contactoBanner {
+   margin-top: 6.25rem;
+}
+
+#trabajo {
+
+   background-color: #d8d03881;
+}
